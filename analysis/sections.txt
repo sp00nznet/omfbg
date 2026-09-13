@@ -1,0 +1,158 @@
+
+==============================================================================
+Sections in AudioPlayer.ModuleDLL
+==============================================================================
+Entry point RVA: 0x0000D5AF
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000     54488     57344   5.9516  EXEC ENTRY-POINT
+.rdata     0x0000F000     36929     40960   6.0079  
+.data      0x00019000      6148      8192   3.7461  
+.reloc     0x0001B000      7622      8192   6.1783  
+
+  No known protection/packer indicators found.
+
+==============================================================================
+Sections in Core.ModuleDLL
+==============================================================================
+Entry point RVA: 0x0022C805
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000   2433409   2437120   6.3770  EXEC ENTRY-POINT
+.rdata     0x00254000    912996    913408   4.9779  
+.data      0x00333000    241708    143360   5.8634  
+.rsrc      0x0036F000   3611616   3612672   6.1080  
+.reloc     0x006E1000    241684    245760   6.7857  
+
+  No known protection/packer indicators found.
+  Weak (4-byte signature match, coincidence is common) -- nothing above corroborates them, treat as noise:
+    - signature 'AddD' @0x2D15DD -> SecuROM (AddD marker)
+
+==============================================================================
+Sections in Creature.ModuleDLL
+==============================================================================
+Entry point RVA: 0x00030B71
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000    208824    208896   6.1984  EXEC ENTRY-POINT
+.rdata     0x00034000    109664    110592   5.6163  
+.data      0x0004F000     19436     12288   4.9647  
+.reloc     0x00054000     30318     32768   6.2395  
+
+  No known protection/packer indicators found.
+  Weak (4-byte signature match, coincidence is common) -- nothing above corroborates them, treat as noise:
+    - signature 'AddD' @0x41D3A -> SecuROM (AddD marker)
+
+==============================================================================
+Sections in Direct3D.ModuleDLL
+==============================================================================
+Entry point RVA: 0x000F77C5
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000   1019196   1019904   6.4679  EXEC ENTRY-POINT
+.rdata     0x000FA000    146816    147456   5.8437  
+.data      0x0011E000     78960     69632   5.5600  
+.rsrc      0x00132000     11016     12288   6.9496  
+.reloc     0x00135000     40314     40960   6.5603  
+
+  No known protection/packer indicators found.
+  Weak (4-byte signature match, coincidence is common) -- nothing above corroborates them, treat as noise:
+    - signature 'AddD' @0x1A8DC2 -> SecuROM (AddD marker)
+
+==============================================================================
+Sections in GameSpy.ModuleDLL
+==============================================================================
+Entry point RVA: 0x00009AEF
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000     37192     40960   6.0399  EXEC ENTRY-POINT
+.rdata     0x0000B000     16845     20480   5.1307  
+.data      0x00010000      7072      4096   4.0543  
+.reloc     0x00012000      3994      4096   6.4817  
+
+  No known protection/packer indicators found.
+
+==============================================================================
+Sections in Input2.ModuleDLL
+==============================================================================
+Entry point RVA: 0x00005B43
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000     20593     24576   5.1637  EXEC ENTRY-POINT
+.rdata     0x00007000     23420     24576   6.4018  
+.data      0x0000D000      3636      4096   4.3749  
+.reloc     0x0000E000      3374      4096   5.6993  
+
+  No known protection/packer indicators found.
+
+==============================================================================
+Sections in OMF.ModuleDLL
+==============================================================================
+Entry point RVA: 0x0006CA01
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000    477879    479232   6.3025  EXEC ENTRY-POINT
+.rdata     0x00076000    189195    192512   5.1744  
+.data      0x000A5000     57044     49152   4.8389  
+.rsrc      0x000B3000    231656    233472   5.8236  
+.reloc     0x000EC000     70024     73728   6.6540  
+
+  No known protection/packer indicators found.
+
+==============================================================================
+Sections in Particles.ModuleDLL
+==============================================================================
+Entry point RVA: 0x0001A6F5
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000    110088    110592   6.2161  EXEC ENTRY-POINT
+.rdata     0x0001C000     69832     73728   5.7524  
+.data      0x0002E000     10660      4096   4.2349  
+.reloc     0x00031000     18858     20480   6.1764  
+
+  No known protection/packer indicators found.
+
+==============================================================================
+Sections in Session.ModuleDLL
+==============================================================================
+Entry point RVA: 0x00022B97
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000    147000    147456   6.2556  EXEC ENTRY-POINT
+.rdata     0x00025000     63724     65536   5.7428  
+.data      0x00035000     16796     16384   4.6743  
+.reloc     0x0003A000     16494     20480   5.7485  
+
+  No known protection/packer indicators found.
+  Weak (4-byte signature match, coincidence is common) -- nothing above corroborates them, treat as noise:
+    - signature 'AddD' @0x2F05A -> SecuROM (AddD marker)
+
+==============================================================================
+Sections in OMFBG.exe
+==============================================================================
+Entry point RVA: 0x0001F05E
+
+name               VA     vsize   rawsize  entropy  flags
+------------------------------------------------------------------------------
+.text      0x00001000     53575     57344   7.7996  EXEC HIGH-ENTROPY
+.rdata     0x0000F000     38849     40960   5.6874  
+.data      0x00019000      5132      4096   7.9472  HIGH-ENTROPY
+.rsrc      0x0001B000      2470      4096   4.5563  
+stxt774    0x0001C000      8296     12288   6.2329  EXEC
+stxt371    0x0001F000     12980     16384   5.5812  EXEC ENTRY-POINT
+
+  Protection / packing indicators:
+    - section 'stxt371' -> SafeDisc
+    - entry point is inside 'stxt371' (wrapper / protector)
+  Weak (4-byte signature match, coincidence is common):
+    - signature 'BoG_' @0xFD4 -> SafeDisc (BoG_ marker)
+    - signature 'stxt' @0x288 -> SafeDisc (stxt section)

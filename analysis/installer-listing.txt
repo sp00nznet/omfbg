@@ -1,0 +1,119 @@
+Header: data1.hdr (20977 bytes)
+Version: 0x01007000 (major=7)
+Cab descriptor at offset 0x200, size 9032
+Volumes: data1.cab [0..19], data2.cab [19..107]
+Directories: 6
+Files: 108
+
+ Idx  Flags      Expanded    Compressed      Offset  Path
+--------------------------------------------------------------------------------
+   0      C             0             0  0x00000200  iKernel.dll
+   1      C             0             0  0x00000200  Setup.dll
+   2      C             0             0  0x00000200  DotNetInstaller.exe
+   3      C             0             0  0x00000200  iscript.dll
+   4      C             0             0  0x00000200  ctor.dll
+   5      C             0             0  0x00000200  iuser.dll
+   6      C             0             0  0x00000200  IGDI.dll
+   7      C             0             0  0x00000200  IsProBE.tlb
+   8      C             0             0  0x00000200  objectps.dll
+   9      -        174925        174925  0x00000000  setup.inx
+  10      C         11598          4786  0x00000200  license.txt
+  11     CX             0             0  0x000014b2  `,
+  12     CX             0             0  0x000014b2  `,
+  13     CX             0             0  0x000014b2  `,
+  14      C         65503         12414  0x000014b2  corecomp.ini
+  15      C            27            31  0x00004530  StringTable-0009-English.ips
+  16      C        372736        184677  0x0000454f  isrt.dll
+  17      C          1168           466  0x000316b4  default.pal
+  18      C        360448         88334  0x00031886  _IsRes.dll
+  19      -             0             0  0x00000000  layout.bin
+  20      -             0             0  0x00000000  data1.hdr
+  21      -             0             0  0x00000000  data1.cab
+  22      -        107512        107512  0x00000000  setup.exe
+  23      -        609971        609971  0x00000000  setup.skin
+  24      -        174925        174925  0x00000000  setup.inx
+  25      -           433           433  0x00000000  setup.ini
+  26      C        106496         48468  0x00000200  AutoPatch/artpclnt.dll
+  27      C        270336        130551  0x0000bf54  AutoPatch/AutoPatcher.exe
+  28      C        114688         59692  0x0002bd4b  AutoPatch/cabarc.exe
+  29      C         12560          3497  0x0003a677  AutoPatch/chktrust.exe
+  30      C        202240        106406  0x0003b420  AutoPatch/patchw32.dll
+  31      C       1889942       1681953  0x000553c6  Data/ArenaDescriptions.DEObjects
+  32      C      15252351      10786880  0x001efde7  Data/BladePit.DEObjects
+  33      C      47841572      40780314  0x00c39627  Data/Canyon.DEObjects
+  34      C       6404412       4503452  0x0331d841  Data/Chronos.DEObjects
+  35      C      22924753      18780681  0x03768fdd  Data/ChronosModel1.DEObjects
+  36      C       2122094       1660572  0x049521e6  Data/CinematicCharacterCollection.DEObjects
+  37      C      14137340       8434704  0x04ae7882  Data/CinematicKingOfHill.DEObjects
+  38      C      19774530      14269970  0x052f2c92  Data/CinematicMasters.DEObjects
+  39      C      11328407       8707346  0x0608eaa4  Data/CinematicPhoenixBuilding.DEObjects
+  40      C       7181938       6394723  0x068dc7b6  Data/CinematicSimpleCity.DEObjects
+  41      C      20402324      16767544  0x06ef5b19  Data/City.DEObjects
+  42      C          1983           952  0x07ef3551  Data/Controllers.DEObjects
+  43      C           598           504  0x07ef3909  Data/Creature.DEObjects
+  44      C      24245840      18648571  0x07ef3b01  Data/Desert.DEObjects
+  45      C      19745570      15681603  0x090bc8fc  Data/DesertRings.DEObjects
+  46      C       1307670       1016111  0x09fb113f  Data/Effects.DEObjects
+  47      C        898702        750392  0x0a0a926e  Data/Fighter.DEObjects
+  48      C      14955068      11695961  0x0a1605a6  Data/FirePit.DEObjects
+  49      C        486081        326524  0x0ac87cff  Data/Flyers.DEObjects
+  50      C       2992343       2048678  0x0acd787b  Data/Force.DEObjects
+  51      C      25929393      19623401  0x0aecbb21  Data/ForceModel1.DEObjects
+  52      C           730           408  0x0c18290a  Data/Forces.DEObjects
+  53      C       2246533       1421543  0x0c182aa2  Data/Gargoyle.DEObjects
+  54      C      26826668      21135584  0x0c2ddb89  Data/GargoyleModel1.DEObjects
+  55      C      19810403      15817287  0x0d705c69  Data/Grudge Match Arena.DEObjects
+  56      C      24383188      19766563  0x0e61b6b0  Data/Iceberg.DEObjects
+  57      C       2524782       1599684  0x0f8f53d3  Data/Jaguar.DEObjects
+  58      C      23127432      17983130  0x0fa7bc97  Data/JaguarModel1.DEObjects
+  59      C       3323807       1909148  0x10ba2331  Data/Katana.DEObjects
+  60      C      20896788      15574988  0x10d744cd  Data/KatanaModel1.DEObjects
+  61      C       6593106       5256945  0x11c4ec99  Data/LoadScene.DEObjects
+  62      C       4057231       2484026  0x1215238a  Data/Mantis.DEObjects
+  63      C      24105998      19500806  0x123b0ac4  Data/MantisModel1.DEObjects
+  64      C        267837         46278  0x136499ca  Data/Materials.DEObjects
+  65      C        406130        332914  0x13654e90  Data/Music.DEObjects
+  66      C       4505718       2344831  0x136a6302  Data/MusicCrystalCold.DEObjects
+  67      C       4659693       3196792  0x138e2a81  Data/MusicExecutor.DEObjects
+  68      C       4115034       2465645  0x13bef1f9  Data/MusicHexed.DEObjects
+  69      C       3534025       2065880  0x13e49166  Data/MusicHighOrbit.DEObjects
+  70      C       2311583       1351267  0x1404173e  Data/MusicK-Faktor.DEObjects
+  71      C       3348065       1769868  0x1418b5a1  Data/MusicRebellion.DEObjects
+  72      C       3353723       1923040  0x1433b72d  Data/MusicSnakeirons.DEObjects
+  73      C       3350733       1555328  0x14510f0d  Data/MusicSongNine.DEObjects
+  74      C       6065605       4909663  0x1468ca8d  Data/MusicTheme.DEObjects
+  75      C       3199826       1771147  0x14b3b4ec  Data/MusicWTMI.DEObjects
+  76      C      22511017      17600400  0x14cebb77  Data/OMFBGGUI.DEObjects
+  77      C      32471006      29558431  0x15db4b07  Data/OMFHelp.DEObjects
+  78      C       4863793       4067149  0x179e51a6  Data/Pickups.DEObjects
+  79      C      12450970      10783451  0x17dc60f3  Data/Pilots.DEObjects
+  80      C      13376522      10882316  0x1880ebce  Data/PowerPlant.DEObjects
+  81      C       8414096       6617303  0x1926f8da  Data/PracticeArena.DEObjects
+  82      C       3690215       2555681  0x198bf1b1  Data/Pyros.DEObjects
+  83      C      23932328      18898441  0x19b2f0d2  Data/PyrosModel1.DEObjects
+  84      C      14478846      12393403  0x1ad34edb  Data/Session.DEObjects
+  85      C      10355506       8716796  0x1b906a96  Data/SharedObjects.DEObjects
+  86      C       6273829       5264893  0x1c156c92  Data/SinglePlayer.DEObjects
+  87      C      13594297      11322881  0x1c65c28f  Data/SinglePlayerFull.DEObjects
+  88      C      23504684      18310561  0x1d128890  Data/SpaceStation.DEObjects
+  89      C      18590607      15104095  0x1e29ee31  Data/Sport.DEObjects
+  90      C      17922043      14442799  0x1f106690  Data/Trophy Room.DEObjects
+  91      C       6833454       3934533  0x1fecc7bf  Data/TrophyRoomFull.DEObjects
+  92      C      16698000      13660506  0x2028d104  Data/Unranked Challenger Cinematic.DEObjects
+  93      C      22714865      18386932  0x20f9425e  Data/Volcano.DEObjects
+  94      C       5803038       4429941  0x2211d252  Data/Warlord.DEObjects
+  95      C      26204849      21079076  0x22556ac7  Data/WarlordModel1.DEObjects
+  96      C        262227         68015  0x23970eeb  Engine/AudioPlayer.ModuleDLL
+  97      C       9535996       4747486  0x2398189a  Engine/Core.ModuleDLL
+  98      C        698592        180885  0x23e08978  Engine/Creature.ModuleDLL
+  99      C        163088         94312  0x23e34c0d  Engine/dbghelp.dll
+ 100      C       1897912        763230  0x23e4bc75  Engine/Direct3D.ModuleDLL
+ 101      C        130243         41441  0x23f061d3  Engine/GameSpy.ModuleDLL
+ 102      C        123818         36192  0x23f103b4  Engine/Input2.ModuleDLL
+ 103      C       1644011        531640  0x23f19114  Engine/OMF.ModuleDLL
+ 104      C       1392287        987790  0x23f9adcc  Engine/OMFBG.exe
+ 105      C        364741         95055  0x2408c05a  Engine/Particles.ModuleDLL
+ 106      C        478839        132281  0x240a33a9  Engine/Session.ModuleDLL
+ 107     CX             0             0  0x240c3862  Mods/`,
+
+Total: 108 files (100 compressed in cab, 8 uncompressed/loose, 4 invalid)
