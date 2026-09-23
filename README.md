@@ -9,7 +9,10 @@ Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain.
 ## Project Status: **P0 complete, P1 not started**
 
 Reconnaissance is done and the answer is unusually good. Nothing has been
-lifted yet.
+lifted, and nothing builds or runs yet. What is here is this write-up and the
+P0 output in `analysis/` (section tables, the export list, the installer
+listing). Every module is 32-bit PE, so this goes through pcrecomp's 32-bit
+path, not the x86-64 one.
 
 ### Why this target, and not OMF 2097
 
@@ -217,3 +220,7 @@ disc.
 
 One Must Fall: Battlegrounds © 2003 Diversions Entertainment. This project
 neither contains nor distributes any part of it.
+
+The code and documentation here are MIT; [LICENSE](LICENSE) spells out that
+the grant stops at our own work and does not reach the game or anything
+lifted from it.
